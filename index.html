@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar bg-light">
+            <form class="container-fluid">
+                <div class="input-group">
+                    <a class="navbar-brand"><img class="d-none d-md-block" src="./img/logo.svg" alt=""></a>
+                    <img class="d-md-none my_logo img-fluid imgLogo" src="./img/mobile-logo.png" alt="">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="search" class="form-control" placeholder="Prova a cercare: lezioni di Lavarel"
+                        aria-label="Prova a cercare: lezioni di Lavarel" aria-describedby="basic-addon1">
+                    <span class="brend"><i class="fa-solid fa-bars d-none d-md-block"></i></span>
+                    <span class="brend"><i class="fa-solid fa-question d-none d-md-block"></i></span>
+                    <span class="brend"><i class="fa-solid fa-ellipsis-vertical d-none d-md-block"></i></span>
+                    <span class="brend"><i class="fa-solid fa-bell campana"></i></span>
+                </div>
+            </form>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="container-fluid">
+            <div class="row">
+
+                <div class=" col-1 col-md-2 primaCol  ">
+                    <span><i class="fa-solid fa-house pb-3 pe-1"></i> <span class="d-none d-md-block">Home</span></span>
+                    <span><i class="fa-solid fa-chart-simple pb-3 pe-3"></i><span
+                            class="d-none d-md-block">Stats</span></span>
+                    <span><i class="fa-solid fa-signal pe-1 "></i><span class="d-none d-md-block">Signals</span></span>
+                    <span class="sett "><i class="fa-solid fa-gear"></i><span
+                            class="d-none d-md-block">Admin</span></span>
+                </div>
+
+
+
+
+                <div class="col-12 col-md-9 secondaCol ">
+
+                    <section>
+
+                        <span class="size">Boolean</span>
+                        <span class="badge">Piano Blaze</span>
+                        <span class="studenti">Studenti online negli ultimi 30 min</span>
+                        <span class="studenti ">Nuovo studente <span>
+                                <i class="fa-regular fa-square-plus fa-2x ps-2"></i></span></span> <br>
+                        <span class="badge">3 app</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                        <span class="badge ">Boolean mobile app</span>
+                        <span class="badge ">Boolean web app</span>
+                        <span class="badge ">Boolean blog app</span>
+                        <span class="sizeDue">125</span>
+                        <div>
+
+                            <section class="contenitoreCard scroll">
+
+                                <div class="col-12 col-md-8 pt-5">
+
+                                    <div class="card text-dark" style="width: 10 rem;">
+                                        <div class="card-header">
+                                            <span>Prossime classi</span>
+                                        </div>
+
+                                        <ul class="list-group list-group-flush">
+
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg"> Nome
+                                                <span class="primaLista">data inizio</span>
+                                                <span class="sottoLista">ROI</span>
+                                                <span class="sottoLista">Stato</span>
+                                                <span class="sottoLista">Azioni</span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 75
+                                                <span class="sottoLista1">15 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1 me-2 bg-success"
+                                                        type="submit ">done</button></span>
+                                                <span class="ps-4"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 76
+                                                <span class="sottoLista1">16 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1 me-2 bg-success"
+                                                        type="submit ">done</button></span>
+                                                <span class="ps-4"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 77
+                                                <span class="sottoLista1">17 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1  bg-warning"
+                                                        type="submit ">process</button></span>
+                                                <span class="ps-3"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 78
+                                                <span class="sottoLista1">18 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1 me-2 bg-success"
+                                                        type="submit ">done</button></span>
+                                                <span class="ps-4"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 79
+                                                <span class="sottoLista1">19 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1 me-2 bg-danger"
+                                                        type="submit ">faied</button></span>
+                                                <span class="ps-4"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 80
+                                                <span class="sottoLista1">20 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1 me-2 bg-success"
+                                                        type="submit ">done</button></span>
+                                                <span class="ps-4"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 81
+                                                <span class="sottoLista1">21 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1 me-2 bg-danger"
+                                                        type="submit ">failed</button></span>
+                                                <span class="ps-4"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img class="img pe-1" src="./img/class-avatar.jpg">Classe 82
+                                                <span class="sottoLista1">22 Feb 2021</span>
+                                                <span class="sottoLista">20%</span>
+                                                <span class="ps-4">
+                                                    <button class="btn btn-primary pe-1 ps-1 pb-1 pt-1 me-2 bg-success"
+                                                        type="submit ">done</button></span>
+                                                <span class="ps-4"><i class="fa-solid fa-square-pen"></i></span>
+                                                <span class="ps-1"><i class="fa-solid fa-trash"></i></span>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="col-12 col-md-4">
+                                        <section class="pt-5">
+                                            <div class="card text-dark" style="width: 42rem;">
+                                                <div class="card-header ">
+                                                    F.A.Q
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        
+                                                    </li>
+                                                    <li class="list-group-item">Come posso accedere alle informazioni
+                                                        dell' mio
+                                                        account?</li>
+                                                    <li class="list-group-item">Posso usare questa dashboar da mobile?
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </section>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-12 col-md-4">
+
+                                    <div class="row">
+
+                                        <section class="pt-5 ps-4 pb-5">
+                                            <div class="card" style="width: 21rem;">
+                                                <div class="card-header text-dark">
+                                                    Todo
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value=""
+                                                                id="flexCheckDefault">
+                                                            <label class="form-check-label"
+                                                                for="flexCheckDefault">Kickoff
+                                                                nuove
+                                                                classi</label>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="list-group-item">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value=""
+                                                                id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                Lezioni su Bootstrap 5 in classe #75</label>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="list-group-item">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value=""
+                                                                id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                Controllare username github studenti</label>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-12 col-md-4">
+                                                <section class="pt-3">
+                                                    <div class="card" style="width: 20rem;">
+                                                        <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                                                        <div class="card-body"> </div>
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item">
+                                                                <h4>Utenti attivi</h4>
+                                                                <span>Lista degli utenti attinvi in piattaforma nell'
+                                                                    ultimo
+                                                                    mese</span>
+                                                            </li>
+                                                            <li class="list-group-item">Gennaio 1200</li>
+                                                            <li class="list-group-item">Febbraio 800</li>
+                                                            <li class="list-group-item">Marzo 1500</li>
+                                                            <li>
+                                                                <div class="card-body">
+                                                                    <a href="#" class="card-link">Visualizza report
+                                                                        approfondito</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+
+                                                </section>
+
+                                            </div>
+
+                                        </section>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                    </section>
+
+
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
