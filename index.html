@@ -20,21 +20,25 @@
 
     <header>
 
-        <nav class="navbar bg-light">
-            <form class="container-fluid">
-                <div class="input-group">
-                    <a class="navbar-brand"><img class="d-none d-md-block" src="./img/logo.svg" alt=""></a>
-                    <img class="d-md-none my_logo img-fluid imgLogo" src="./img/mobile-logo.png" alt="">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="search" class="form-control" placeholder="Prova a cercare: lezioni di Lavarel"
-                        aria-label="Prova a cercare: lezioni di Lavarel" aria-describedby="basic-addon1">
-                    <span class="brend"><i class="fa-solid fa-bars d-none d-md-block"></i></span>
-                    <span class="brend"><i class="fa-solid fa-question d-none d-md-block"></i></span>
-                    <span class="brend"><i class="fa-solid fa-ellipsis-vertical d-none d-md-block"></i></span>
-                    <span class="brend"><i class="fa-solid fa-bell campana"></i></span>
-                </div>
-            </form>
-        </nav>
+        <div class="sticky-top">
+
+            <nav class="navbar bg-light ">
+                <form class="container-fluid">
+                    <div class="input-group">
+                        <a class="navbar-brand"><img class="d-none d-md-block" src="./img/logo.svg" alt=""></a>
+                        <img class="d-md-none my_logo img-fluid imgLogo" src="./img/mobile-logo.png" alt="">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="search" class="form-control" placeholder="Prova a cercare: lezioni di Lavarel"
+                            aria-label="Prova a cercare: lezioni di Lavarel" aria-describedby="basic-addon1">
+                        <span class="brend"><i class="fa-solid fa-bars d-none d-md-block"></i></span>
+                        <span class="brend"><i class="fa-solid fa-question d-none d-md-block"></i></span>
+                        <span class="brend"><i class="fa-solid fa-ellipsis-vertical d-none d-md-block"></i></span>
+                        <span class="brend"><i class="fa-solid fa-bell campana"></i></span>
+                    </div>
+                </form>
+            </nav>
+
+        </div>
 
     </header>
 
@@ -73,7 +77,7 @@
                         <span class="sizeDue">125</span>
                         <div>
 
-                            <section class="contenitoreCard scroll">
+                            <section class="container">
 
                                 <div class="col-12 col-md-8 pt-5">
 
@@ -185,12 +189,104 @@
                                                 </div>
                                                 <ul class="list-group list-group-flush">
                                                     <li class="list-group-item">
-                                                        
+                                                        <div class="accordion" id="accordionExample">
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header" id="headingOne">
+                                                                    <button class="accordion-button collapsed"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne">
+                                                                        Come aggiungere un nuovo studente?
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingOne"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </li>
-                                                    <li class="list-group-item">Come posso accedere alle informazioni
-                                                        dell' mio
-                                                        account?</li>
-                                                    <li class="list-group-item">Posso usare questa dashboar da mobile?
+
+                                                    <li class="list-group-item">
+                                                        <div class="accordion" id="accordionExample">
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header" id="headingOne">
+                                                                    <button class="accordion-button collapsed"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne">
+                                                                        Come posso accedere alle informazioni del mio account?
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingOne"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="accordion" id="accordionExample">
+                                                            <div class="accordion-item">
+                                                                <h2 class="accordion-header" id="headingOne">
+                                                                    <button class="accordion-button collapsed"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="collapseOne">
+                                                                        posso usare questa dashboard da mobile?
+                                                                    </button>
+                                                                </h2>
+                                                                <div id="collapseOne"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="headingOne"
+                                                                    data-bs-parent="#accordionExample">
+                                                                    <div class="accordion-body">
+                                                                        <strong>This is the first item's accordion
+                                                                            body.</strong> It is shown by default, until
+                                                                        the collapse plugin adds the appropriate classes
+                                                                        that we use to style each element. These classes
+                                                                        control the overall appearance, as well as the
+                                                                        showing and hiding via CSS transitions. You can
+                                                                        modify any of this with custom CSS or overriding
+                                                                        our default variables. It's also worth noting
+                                                                        that just about any HTML can go within the
+                                                                        <code>.accordion-body</code>, though the
+                                                                        transition does limit overflow.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </li>
                                                 </ul>
                                             </div>
